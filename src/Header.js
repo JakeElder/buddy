@@ -1,0 +1,15 @@
+import React from 'react'
+import logo from './logo.svg'
+
+const Header = () => (
+  <header className="Header">
+    <span className="Header-logo">
+      <img className="Header-logo-img" src={logo} />
+    </span>
+    <span className="Header-logo-text">
+      Buddy
+    </span>
+  </header>
+)
+
+export default Header

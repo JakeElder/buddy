@@ -8,6 +8,7 @@
 .Container {
   padding-left: 20px;
   padding-right: 20px;
+  color: #444444;
 }
 
 /* Header */
@@ -45,7 +46,6 @@
 }
 
 .UserInfo-title {
-  color: #444444;
   font-family: Montserrat;
   font-size: 20px;
 }
@@ -56,7 +56,6 @@
   font-size: 10px;	
   font-weight: bold;	
   text-transform: uppercase;
-  /* couldn't figure out how to move log out to the right */
 }
 
 .UserInfo-avatar-and-details {
@@ -93,4 +92,22 @@
   font-weight: 600;	
 }
 
-/* struggling to align everything */
+/* User Info Details */
+
+.DetailsList {
+  font-family: Lato;	
+  font-size: 14px;
+}
+
+label {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+#email {
+  padding-top: 10px;
+}
+
+#organisation {
+  padding-top: 10px;
+}

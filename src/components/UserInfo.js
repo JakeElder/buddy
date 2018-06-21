@@ -23,13 +23,17 @@ const UserInfo = () => (
         </div>
         <div className="UserInfo-details">
           <div className="DetailsList">
-            Code me
+            <div id="email">
+              <label for="weight">Email:</label>person@place.com
+            </div>
+            <div id="organisation">
+              <label for="weight">Organisation:</label>Some Place
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
 )
 
 export default UserInfo

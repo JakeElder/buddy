@@ -64,6 +64,7 @@
 
 .UserInfo-avatar {
   margin-right: 16px;
+  margin-bottom: 30px;
 }
 
 /* Avatar */
@@ -110,4 +111,52 @@ label {
 
 #organisation {
   padding-top: 10px;
+}
+
+/* Alerts */
+
+.Alert-heading {
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.Alert-title {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+/* Themes */
+
+.Alert-body {
+  height: 54px;
+  background-color: #F5F5F5;
+}
+
+.Grooming-theme-color {
+  height: 54px;
+  width: 14px;
+  background-color: #BC7777;
+}
+
+.Alert-theme-and-message-count {
+  height: 50px;	
+  width: 75px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  padding-top: 11px;
+}
+
+.Alert-theme {
+  font-family: Montserrat;	
+  font-size: 14px;	
+  font-weight: 600;
+}
+
+.Alert-message-count {
+  font-family: Montserrat;	
+  font-size: 14px;
 }

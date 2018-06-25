@@ -134,6 +134,7 @@ label {
 .Alert-body {
   height: 54px;
   background-color: #F5F5F5;
+  margin-top: 1px;
 }
 
 .Grooming-theme-color {
@@ -142,9 +143,39 @@ label {
   background-color: #BC7777;
 }
 
+.Abuse-theme-color {
+  height: 54px;
+  width: 14px;
+  background-color: #BC7777;
+}
+
+.Self-harm-theme-color {
+  height: 54px;
+  width: 14px;
+  background-color: #DAB479;
+}
+
+.Harassment-theme-color {
+  height: 54px;
+  width: 14px;
+  background-color: #DAB479;
+}
+
+.Fraud-detection-theme-color {
+  height: 54px;
+  width: 14px;
+  background-color: #95AD70;
+}
+
+.Hate-speech-theme-color {
+  height: 54px;
+  width: 14px;
+  background-color: #95AD70;
+}
+
 .Alert-theme-and-message-count {
   height: 50px;	
-  width: 75px;
+  width: 120px; /*not accurate */
   padding-left: 24px;
   padding-bottom: 10px;
   padding-top: 11px;
@@ -159,4 +190,13 @@ label {
 .Alert-message-count {
   font-family: Montserrat;	
   font-size: 14px;
+}
+
+.Alert-time {
+  height: 50px;	
+  width: 100px;
+  font-family: Montserrat;	
+  font-size: 10px;	
+  font-weight: 600;
+  text-align: center;
 }

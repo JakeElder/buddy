@@ -112,11 +112,25 @@
 }
 
 .DetailsList-key {
-  font-weight: bold;
+  font-weight: 600;
   margin-right: 10px;
 }
 
 /* Alerts */
+
+.Alert-heading {
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.Alert-title {
+  font-family: Montserrat;
+  font-size: 20px;
+}
 
 .Alerts {
   list-style: none;
@@ -137,7 +151,6 @@
 .Alert-priority {
   width: 14px;
   height: 54px;
-  background-color: #000;
 }
 
 .Alert-priority-high {
@@ -146,6 +159,10 @@
 
 .Alert-priority-medium {
   background-color: #dab479;
+}
+
+.Alert-priority-low {
+  background-color:	#95AD70;
 }
 
 .Alert-meta-and-time {
@@ -173,9 +190,9 @@
 }
 
 .Badge {
-  background-color: #fff;
   font-size: 10px;
   padding: 6px 12px;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
   border-radius: 2px;
 }

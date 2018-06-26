@@ -26,11 +26,18 @@ const Alert = ({
 )
 
 const Alerts = ({ alerts }) => (
-  <ul className="Alerts">
-    {alerts.map(alert =>
-      <Alert key={`${alert.theme}-${alert.messageCount}`} {...alert} />
-    )}
-  </ul>
+  <div>
+    <header className="Alert-heading">
+      <div className="Alert-title">
+        Alerts
+      </div>
+    </header>
+    <ul className="Alerts">
+      {alerts.map(alert =>
+        <Alert key={`${alert.theme}-${alert.messageCount}`} {...alert} />
+      )}
+    </ul>
+  </div>
 )
 
 export default Alerts

@@ -12,7 +12,13 @@ class App extends Component {
         <Header />
         <Container>
           <UserInfo />
-          <Alerts />
+          <Alerts 
+            alerts={[
+              { priority: 'high', theme: 'Grooming', messageCount: 33, timeAgo: '12 minutes ago' },
+              { priority: 'high', theme: 'Abuse', messageCount: 22, timeAgo: '35 minutes ago' },
+              { priority: 'medium', theme: 'Grooming', messageCount: 112, timeAgo: '40 minutes ago' }
+            ]}
+          />
         </Container>
       </div>
     );

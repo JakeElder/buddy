@@ -4,7 +4,7 @@ import logo from '../images/logo.svg'
 const Header = () => (
   <header className="Header">
     <span className="Header-logo">
-      <img className="Header-logo-img" src={logo} />
+      <img alt="" className="Header-logo-img" src={logo} />
     </span>
     <span className="Header-logo-text">
       Buddy

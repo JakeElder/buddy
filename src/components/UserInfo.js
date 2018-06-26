@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import icon from '../images/icon.svg'
 
 const UserInfo = () => (
@@ -15,7 +15,7 @@ const UserInfo = () => (
       <div className="UserInfo-avatar-and-details">
         <div className="UserInfo-avatar">
           <div className="Avatar">
-            <img className="Avatar-icon" src={icon} />
+            <img alt="" className="Avatar-icon" src={icon} />
             <span className="Avatar-icon-text">
               Moderator
             </span>

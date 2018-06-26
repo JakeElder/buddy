@@ -12,8 +12,6 @@ class App extends Component {
         <Header />
         <Container>
           <UserInfo />
-        </Container>
-        <Container>
           <Alerts />
         </Container>
       </div>

@@ -67,6 +67,10 @@
   margin-bottom: 30px;
 }
 
+.UserInfo-details {
+  padding-top: 8px;
+}
+
 /* Avatar */
 
 .Avatar {
@@ -98,19 +102,18 @@
 .DetailsList {
   font-family: Lato;	
   font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-label {
-  font-weight: 600;
-  padding-right: 10px;
+.DetailsList-entry:not(:last-child) {
+  margin-bottom: 6px;
 }
 
-#email {
-  padding-top: 10px;
-}
-
-#organisation {
-  padding-top: 10px;
+.DetailsList-key {
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 /* Alerts */

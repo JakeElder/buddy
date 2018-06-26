@@ -1,4 +1,5 @@
 import React from 'react';
+import DetailsList from './DetailsList'
 import icon from '../images/icon.svg'
 
 const UserInfo = () => (
@@ -22,14 +23,12 @@ const UserInfo = () => (
           </div>
         </div>
         <div className="UserInfo-details">
-          <div className="DetailsList">
-            <div id="email">
-              <label for="weight">Email:</label>person@place.com
-            </div>
-            <div id="organisation">
-              <label for="weight">Organisation:</label>Some Place
-            </div>
-          </div>
+          <DetailsList
+            entries={{
+              "Email": "person@place.com",
+              "Organisation": "Some Place"
+            }}
+          />
         </div>
       </div>
     </div>

@@ -1,0 +1,20 @@
+.root {
+  background-color: #5C606F;
+  height: 80px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}

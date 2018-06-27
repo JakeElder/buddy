@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import UserInfo from './components/UserInfo';
 import Alerts from './components/Alerts';
 import Container from './components/Container';
-import './App.css';
+import s from './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className={s.root}>
         <Header />
         <Container>
           <UserInfo />

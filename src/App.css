@@ -36,7 +36,7 @@
 
 /* User Info */
 
-.UserInfo-heading {	
+.SectionHeader {	
   margin: 26px 0 14px 0;
   border-bottom: 1px solid #CCCCCC;
   display: flex;
@@ -45,12 +45,12 @@
   padding-bottom: 12px;
 }
 
-.UserInfo-title {
+.SectionHeader-heading {
   font-family: Montserrat;
   font-size: 20px;
 }
 
-.UserInfo-logout {
+.Link {
   color: #1673B1;	
   font-family: Lato;	
   font-size: 10px;	
@@ -117,20 +117,6 @@
 }
 
 /* Alerts */
-
-.Alert-heading {
-  border-bottom: 1px solid #CCCCCC;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-}
-
-.Alert-title {
-  font-family: Montserrat;
-  font-size: 20px;
-}
 
 .Alerts {
   list-style: none;

@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionHeader from './SectionHeader'
 
 const Badge = ({ children }) =>
   <span className="Badge">{children}</span>
@@ -27,11 +28,7 @@ const Alert = ({
 
 const Alerts = ({ alerts }) => (
   <div>
-    <header className="Alert-heading">
-      <div className="Alert-title">
-        Alerts
-      </div>
-    </header>
+    <SectionHeader>Alerts</SectionHeader>
     <ul className="Alerts">
       {alerts.map(alert =>
         <Alert key={`${alert.theme}-${alert.messageCount}`} {...alert} />

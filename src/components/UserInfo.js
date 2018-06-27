@@ -1,17 +1,14 @@
 import React from 'react';
 import DetailsList from './DetailsList'
+import SectionHeader from './SectionHeader'
+import Link from './Link'
 import icon from '../images/icon.svg'
 
 const UserInfo = () => (
   <div>
-    <header className="UserInfo-heading">
-      <div className="UserInfo-title">
-        Account
-      </div>
-      <div className="UserInfo-logout">
-        Log Out
-      </div>
-    </header>
+    <SectionHeader supplement={<Link>Log out</Link>}>
+      Account
+    </SectionHeader>
     <div className="UserInfo-body">
       <div className="UserInfo-avatar-and-details">
         <div className="UserInfo-avatar">

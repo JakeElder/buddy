@@ -1,0 +1,36 @@
+.avatarDetails {
+  display: flex;
+}
+  
+.avatarInfo {
+  margin-right: 16px;
+  margin-bottom: 30px;
+}
+  
+.avatar {
+  height: 84px;	
+  width: 84px;	
+  border-radius: 3px;	
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.icon {
+  width: 44px;
+  display: block;
+  margin-bottom: 2px;
+}
+  
+.iconText {
+  color: #777777;	
+  font-family: 'Montserrat', sans-serif;	
+  font-size: 12px;	
+  font-weight: 600;	
+}
+
+.user_details {
+  padding-top: 8px;
+}

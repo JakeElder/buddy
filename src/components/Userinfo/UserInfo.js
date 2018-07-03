@@ -1,7 +1,7 @@
 import React from 'react';
-import DetailsList from '../../components/DetailsList'
-import SectionHeader from '../../components/SectionHeader'
-import Link from '../../components/Link'
+import DetailsList from '../../components/Userinfo/DetailsList'
+import SectionHeader from '../../components/Header/SectionHeader'
+import Link from '../../components/Userinfo/Link'
 import icon from '../../images/icon.svg'
 import s from './Userinfo.css'
 

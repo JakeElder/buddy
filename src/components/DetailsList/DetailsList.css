@@ -1,4 +1,4 @@
-.detailsList {
+.root {
   font-family: 'Lato', sans-serif;	
   font-size: 14px;
   list-style: none;
@@ -6,11 +6,11 @@
   padding: 0;
 }
   
-.detailsListEntry:not(:last-child) {
-    margin-bottom: 6px;
+.entry:not(:last-child) {
+  margin-bottom: 6px;
 }
   
-.detailsListKey {
+.key {
   font-weight: 600;
   margin-right: 10px;
 }

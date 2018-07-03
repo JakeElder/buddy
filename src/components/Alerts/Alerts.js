@@ -1,9 +1,7 @@
 import React from 'react';
 import classnames from 'classnames'
-import SectionHeader from '../Header/SectionHeader'
+import SectionHeader from '../SectionHeader/SectionHeader'
 import s from './Alerts.css';
-
-console.log(s)
 
 const Badge = ({ children }) =>
   <span className={s.badge}>{children}</span>

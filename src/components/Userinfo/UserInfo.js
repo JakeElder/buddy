@@ -1,9 +1,9 @@
 import React from 'react';
-import DetailsList from '../../components/Userinfo/DetailsList'
-import SectionHeader from '../../components/Header/SectionHeader'
-import Link from '../../components/Userinfo/Link'
+import DetailsList from '../DetailsList'
+import SectionHeader from '../SectionHeader/SectionHeader'
+import Link from '../Link'
 import icon from '../../images/icon.svg'
-import s from './Userinfo.css'
+import s from './UserInfo.css'
 
 const UserInfo = () => (
   <div>

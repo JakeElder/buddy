@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header/Header';
-import UserInfo from '../../components/Userinfo/UserInfo';
-import Alerts from '../../components/Alerts/Alerts';
-import Container from './Container';
+import Header from '../Header';
+import UserInfo from '../UserInfo';
+import Alerts from '../Alerts';
+import Container from '../Container';
 import s from './App.css';
 
 class App extends Component {

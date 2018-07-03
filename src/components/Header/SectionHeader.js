@@ -2,12 +2,12 @@ import React from 'react';
 import s from './SectionHeader.css'
 
 const SectionHeader = ({ children, supplement }) => (
-  <header className={s.sectionHeader}>
-    <div className={s.sectionHeaderHeading}>
+  <header className={s.root}>
+    <div className={s.heading}>
       {children}
     </div>
     {supplement &&
-      <div className={s.sectionHeaderSupplement}>
+      <div className={s.supplement}>
         {supplement}
       </div>
     }

@@ -1,4 +1,4 @@
-.sectionHeader {	
+.root {	
   margin: 26px 0 14px 0;
   border-bottom: 1px solid #CCCCCC;
   display: flex;
@@ -7,7 +7,7 @@
   padding-bottom: 12px;
 }
 
-.sectionHeaderHeading {
+.heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }

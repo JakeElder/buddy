@@ -4,34 +4,34 @@
   padding: 0;
 }
 
-.alertsEntry {
+.entry {
   height: 54px;
   background-color: #f5f5f5;
   display: flex;
 }
 
-.Alerts-entry:not(:last-child) {
+.entry:not(:last-child) {
   margin-bottom: 1px;
 }
 
-.Alert-priority {
+.priority {
   width: 14px;
   height: 54px;
 }
 
-.Alert-priority-high {
+.priority-high {
   background-color: #bc7777;
 }
 
-.Alert-priority-medium {
+.priority-medium {
   background-color: #dab479;
 }
 
-.Alert-priority-low {
+.priority-low {
   background-color:	#95AD70;
 }
 
-.Alert-meta-and-time {
+.meta-and-time {
   display: flex;
   flex: 1;
   align-items: center;
@@ -40,19 +40,21 @@
   padding-right: 12px;
 }
 
-.alertMessageCount {
+.theme-and-message-count {
   display: flex;
   flex-direction: column;
 }
 
-.alert-theme {
+.message-count {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.theme {
   margin-bottom: 2px;
   font-size: 14px;
   font-weight: 600;
-}
-
-.alertMessageCount {
-  font-size: 13px;
 }
 
 .Badge {

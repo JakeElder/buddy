@@ -1,6 +1,9 @@
 import React from 'react';
+import classnames from 'classnames'
 import SectionHeader from '../Header/SectionHeader'
 import s from './Alerts.css';
+
+console.log(s)
 
 const Badge = ({ children }) =>
   <span className={s.badge}>{children}</span>
@@ -11,16 +14,16 @@ const Alert = ({
   messageCount,
   timeAgo
 }) => (
-  <li className={s.alertsEntry}>
+  <li className={s.entry}>
     <span
-      className={`alertPriority Alert-priority-${priority}`}
+      className={classnames(s.priority, s[`priority-${priority}`])}
     />
-    <div className={s.alertMetaAndTime}>
-      <div className={s.alertMessageount}>
-        <span className={s.alert-theme}>{theme}</span>
-        <span className={s.alertMessageCount}>{messageCount} messages</span>
+    <div className={s.metaAndTime}>
+      <div className={s.themeAndMessageCount}>
+        <span className={s.theme}>{theme}</span>
+        <span className={s.messageCount}>{messageCount} messages</span>
       </div>
-      <div className={s.alertTimeAgo}>
+      <div>
         <Badge>{timeAgo}</Badge>
       </div>
     </div>

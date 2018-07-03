@@ -31,11 +31,14 @@ const Alert = ({
 const Alerts = ({ alerts }) => (
   <div>
     <SectionHeader>Alerts</SectionHeader>
-    <ul className={s.alerts}>
-      {alerts.map(alert =>
-        <Alert key={`${alert.theme}-${alert.messageCount}`} {...alert} />
-      )}
-    </ul>
+    {alerts.length > 0 ?
+      <ul className={s.alerts}>
+        {alerts.map(alert =>
+          <Alert key={`${alert.theme}-${alert.messageCount}`} {...alert} />
+        )}
+      </ul> :
+      <span>Loading</span>
+    }
   </div>
 )
 

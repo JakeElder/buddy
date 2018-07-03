@@ -6,22 +6,23 @@ import Container from '../Container';
 import s from './App.css';
 
 class App extends Component {
+  state = {
+    alerts: []
+  }
+
+  componentWillMount() {
+    window.fetch('http://localhost:3050/api/alerts')
+      .then(r => r.json())
+      .then(alerts => console.log(alerts))
+  }
+
   render() {
     return (
       <div className={s.root}>
         <Header />
         <Container>
           <UserInfo />
-          <Alerts 
-            alerts={[
-              { priority: 'high', theme: 'Grooming', messageCount: 33, timeAgo: '12 minutes ago' },
-              { priority: 'high', theme: 'Abuse', messageCount: 22, timeAgo: '35 minutes ago' },
-              { priority: 'medium', theme: 'Grooming', messageCount: 112, timeAgo: '40 minutes ago' },
-              { priority: 'medium', theme: 'Harassment', messageCount: 18, timeAgo: '41 minutes ago' },
-              { priority: 'low', theme: 'Abuse', messageCount: 87, timeAgo: '46 minutes ago' },
-              { priority: 'low', theme: 'Abuse', messageCount: 15, timeAgo: '46 minutes ago' }
-            ]}
-          />
+          <Alerts alerts={this.state.alerts} />
         </Container>
       </div>
     );
